@@ -9,6 +9,7 @@ const NewsfeedQuery = graphql`
   topStory {
     title
     summary
+    createdAt
     poster {
       name
       profilePicture {
